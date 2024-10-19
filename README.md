@@ -5,12 +5,12 @@
 <p>
 This project is a terminal-based application developed in Python using Boto3 for AWS interaction,</br> with infrastructure provisioned through Terraform and DynamoDB as the database. The application</br> allows users to interactively retrieve information about various Pokémon in an engaging and efficient manner.
 </br>
-Upon running the script, users are prompted to "draw" a Pokémon. The application then checks if</br> the selected Pokémon already exists in the DynamoDB database. If the Pokémon is found, a message</br> is displayed indicating that the Pokémon is already in the database. If the Pokémon is not present,</br> the app fetches its relevant details—such as ID, name, weight, height, and types—from an external</br> API and saves these details to the database.
+Upon running the script, users are prompted to "draw" a Pokémon. The application then checks if</br> the selected Pokémon already exists in the DynamoDB database. If the Pokémon is found, a message</br> is displayed indicating that the Pokémon is already in the database. If the Pokémon is not present,</br> the app fetches its relevant details-such as ID, name, weight, height, and types-from an external</br> API and saves these details to the database.
 
 </p>
 
  <h2> Stack</h2>
-:white_medium_small_square: Python
+:white_medium_small_square: Python - Boto3
 :white_medium_small_square: AWS
 :white_medium_small_square: DynamoDB
 :white_medium_small_square: Terraform
