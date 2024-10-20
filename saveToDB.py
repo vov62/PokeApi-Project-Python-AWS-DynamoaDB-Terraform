@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 from apiHandle import fetch_single_pokemon_details
 from deploy_pokemon_app import create_dynamodb_table
 # from table_operations import create_dynamodb_table
@@ -27,9 +27,9 @@ def check_if_pokemon_in_database(random_pokemon_name):
     if pokemon:
         print('Found match!')
         print('-----------Pokemon details from database------')
-        print(f"Pokémon: {pokemon['name']}\nID: {pokemon['id']}\nHeight: {pokemon['height']}\nWeight: {pokemon['weight']}")
+        print(f"Pokemon: {pokemon['name']}\nID: {pokemon['id']}\nHeight: {pokemon['height']}\nWeight: {pokemon['weight']}")
     else:
-        print('Pokémon name is not found in DynamoDB database. Fetching details...')
+        print('Pokemon name is not found in DynamoDB database. Fetching details...')
         pokemon_details = fetch_single_pokemon_details(random_pokemon_name)
         save_pokemon_to_dynamoDB(pokemon_details)
 
@@ -58,7 +58,7 @@ def save_pokemon_to_dynamoDB(pokemon_details):
             }
         )
         if response['ResponseMetadata']['HTTPStatusCode'] == 200:
-              print(f'Success: Pokémon "{pokemon_details["name"]}" details saved to DynamoDB database!')
+              print(f'Success: Pokemon "{pokemon_details["name"]}" details saved to DynamoDB database!')
     except Exception as e:
         print(f"failed to create item: {str(e)}")
 
