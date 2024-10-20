@@ -76,7 +76,6 @@ def create_dynamodb_table():
         # Check if the table exists first
         table = dynamodb.Table(table_name)
         table.load()  # This will trigger an exception if the table does not exist
-        print(f"Table '{table_name}' already exists")
     except dynamodb.meta.client.exceptions.ResourceNotFoundException:
         try:
             # Create the DynamoDB table if it doesn't exist
