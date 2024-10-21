@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+import os
 from apiHandle import fetch_single_pokemon_details
 # from deploy_pokemon_app import create_dynamodb_table
 from boto3.dynamodb.conditions import Key, Attr
@@ -7,24 +7,18 @@ from datetime import datetime
 
 
 
+DYNAMODB_TABLE_NAME = os.getenv('DYNAMODB_TABLE_NAME', 'default_table_name')
 
-with open("terraform_output.txt", "r") as f:
-    DYNAMODB_TABLE_NAME = f.read().strip()
+# with open("terraform_output.txt", "r") as f:
+#     DYNAMODB_TABLE_NAME = f.read().strip()
 
-
-def get_dynamodb_table():
-    # Fetch the DynamoDB table based on the name.
-    if not DYNAMODB_TABLE_NAME:
-        raise ValueError("DynamoDB table name is not set")
-
-    dynamodb = boto3.resource('dynamodb', region_name='us-west-2')
-    return dynamodb.Table(DYNAMODB_TABLE_NAME)
+# get table resource
+dynamodb = boto3.resource('dynamodb', region_name='us-west-2')
+table = dynamodb.Table(DYNAMODB_TABLE_NAME)
 
 
 
 def check_if_pokemon_in_database(random_pokemon_name):
-
-    table = get_dynamodb_table()
     pokemon = None
 
 
@@ -52,8 +46,6 @@ def check_if_pokemon_in_database(random_pokemon_name):
 
 
 def save_pokemon_to_dynamoDB(pokemon_details):
-
-    table = get_dynamodb_table()
 
     if table is None:
         print("Failed to retrieve or create the table.")
