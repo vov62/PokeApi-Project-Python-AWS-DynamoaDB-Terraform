@@ -1,4 +1,4 @@
-# PokeApi-Project-Python-AWS-DynamoaDB-Terraform
+# PokeApi-Project-Python-AWS-DynamoDB-Terraform
 
 <h2>Description</h2>
 
@@ -23,4 +23,5 @@ The primary challenge in this project was setting up the infrastructure using Te
 
 <h2> What Have I Learned? </h2>
 :white_medium_small_square: Python Boto3: Deepened my knowledge of using Python's Boto3 library to interact with AWS services programmatically.
+</br>
 :white_medium_small_square: Terraform: Gained proficiency in Terraform for defining, deploying, and managing cloud infrastructure through code.

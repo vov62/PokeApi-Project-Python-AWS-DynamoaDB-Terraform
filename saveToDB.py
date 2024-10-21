@@ -1,6 +1,4 @@
-import os
 from apiHandle import fetch_single_pokemon_details
-# from deploy_pokemon_app import create_dynamodb_table
 from boto3.dynamodb.conditions import Key, Attr
 import boto3
 from datetime import datetime

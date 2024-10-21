@@ -6,8 +6,10 @@ yum install -y python3 python3-pip git
 
 cd /home/ec2-user
 mkdir -p /home/ec2-user/.aws
-touch /home/ec2-user/.aws/credentials
-touch /home/ec2-user/.aws/config
+cd .aws/
+touch credentials
+touch config
+cd ..
 
 # Clone the GitHub repositor
 git clone https://github.com/vov62/PokeApi-Project-Python-AWS-DynamoaDB-Terraform /home/ec2-user/app
