@@ -6,12 +6,6 @@ import boto3
 from datetime import datetime
 
 
-
-DYNAMODB_TABLE_NAME = os.getenv('DYNAMODB_TABLE_NAME', 'default_table_name')
-
-# with open("terraform_output.txt", "r") as f:
-#     DYNAMODB_TABLE_NAME = f.read().strip()
-
 # get table resource
 dynamodb = boto3.resource('dynamodb', region_name='us-west-2')
 table = dynamodb.Table('pokemonsDBTable')
