@@ -15,7 +15,8 @@ variable "egressrules" {
 
 # create db server ec2
 resource "aws_instance" "db_server" {
-  ami             = "ami-079c0d2990b4033f4"
+  # ami             = "ami-079c0d2990b4033f4"
+  ami             = "ami-07c5ecd8498c59db5"
   instance_type   = "t2.micro"
   key_name        = "vockey"
   security_groups = [aws_security_group.DB_servr_sg.name]
