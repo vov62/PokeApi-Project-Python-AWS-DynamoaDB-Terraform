@@ -23,6 +23,8 @@ pip3 install boto3 requests
 # Set the DynamoDB table name as an environment variable
 export DYNAMODB_TABLE_NAME="$(terraform output -raw tableid)"
 
+
+
 # Ensure that the correct version of Python is used and that the environment is ready
 which python3
 python3 --version
