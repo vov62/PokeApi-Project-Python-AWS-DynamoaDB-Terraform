@@ -11,7 +11,7 @@ unzip terraform_${TERRAFORM_VERSION}_linux_amd64.zip
 mv terraform /usr/local/bin/
 chmod +x /usr/local/bin/terraform
 
-# Clone the GitHub repository
+# Clone the GitHub repositor
 git clone https://github.com/vov62/PokeApi-Project-Python-AWS-DynamoaDB-Terraform /home/ec2-user/app
 
 cd /home/ec2-user/app
