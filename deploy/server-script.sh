@@ -32,4 +32,3 @@ pip3 --version
 
 # Run the application in the background
 nohup python3 main.py --draw yes &  
-
