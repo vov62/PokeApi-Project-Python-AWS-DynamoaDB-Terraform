@@ -8,6 +8,7 @@ cd /home/ec2-user
 mkdir -p /home/ec2-user/.aws
 cd .aws/
 touch credentials
+sudo chmod 777 credentials
 touch config
 cd ..
 
