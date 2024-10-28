@@ -8,6 +8,8 @@ This project is a terminal-based application developed in Python using Boto3 for
 Upon running the script, users are prompted to "draw" a Pokémon. The application then checks if</br> the selected Pokémon already exists in the DynamoDB database. If the Pokémon is found, a message</br> is displayed indicating that the Pokémon is already in the database. If the Pokémon is not present,</br> the app fetches its relevant details-such as ID, name, weight, height, and types-from an external</br> API and saves these details to the database.
 
 </p>
+</br>
+<b> make sure you have aws credentials to run this project </b>
 
  <h2> Stack</h2>
 :white_medium_small_square: Python - Boto3
