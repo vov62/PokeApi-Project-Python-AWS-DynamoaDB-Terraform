@@ -31,6 +31,7 @@ The primary challenge in this project was setting up the infrastructure using Te
 <img width="600" alt="‏‏flow" src="https://github.com/vov62/PokeApi-Project-Python-AWS-DynamoaDB-Terraform/blob/main/assets/mermaid-diagram-2024-11-05-170009.png?raw=true">
 
 
+![Flow Diagram](https://raw.githubusercontent.com/vov62/PokeApi-Project-Python-AWS-DynamoaDB-Terraform/main/mermaid-diagram.png)
 
 <img width="600" alt="app flow" src="https://camo.githubusercontent.com/61c483546646c4586f978bf40d0d4db47ad98f6219393a2e25b9bc18359b79f0/68747470733a2f2f692e6962622e636f2f703364323433632f53637265656e73686f742d323032342d31302d30382d61742d31372d35342d30322e706e67">
 
