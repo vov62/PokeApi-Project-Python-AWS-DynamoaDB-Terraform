@@ -28,6 +28,10 @@ The primary challenge in this project was setting up the infrastructure using Te
 :white_medium_small_square: Terraform: Gained proficiency in Terraform for defining, deploying, and managing cloud infrastructure through code.
 
 <h2>Flow</h2>
+![mermaid-diagram-2024-11-05-170009](https://github.com/user-attachments/assets/68815e7d-9769-4452-b0c2-af6dfd757221)
+
+
+
 <img width="600" alt="app flow" src="https://camo.githubusercontent.com/61c483546646c4586f978bf40d0d4db47ad98f6219393a2e25b9bc18359b79f0/68747470733a2f2f692e6962622e636f2f703364323433632f53637265656e73686f742d323032342d31302d30382d61742d31372d35342d30322e706e67">
 
 
