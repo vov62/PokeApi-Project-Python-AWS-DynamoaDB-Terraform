@@ -32,4 +32,4 @@ The primary challenge in this project was setting up the infrastructure using Te
 
 
 <h2>app on aws</h2>
-<img width="600" alt="פוקימון aws" src="https://github.com/user-attachments/assets/a80fda7b-481d-4f06-bcca-cd2b72c21ed8">
+<img width="540" alt="‏‏פוקימון aws - עותק" src="https://github.com/user-attachments/assets/587e3e19-3249-4b9e-8eb5-a1e8f8a3702a">
