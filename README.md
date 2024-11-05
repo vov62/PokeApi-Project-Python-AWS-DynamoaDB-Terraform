@@ -28,7 +28,7 @@ The primary challenge in this project was setting up the infrastructure using Te
 :white_medium_small_square: Terraform: Gained proficiency in Terraform for defining, deploying, and managing cloud infrastructure through code.
 
 <h2>Flow</h2>
-![mermaid-diagram-2024-11-05-170009](https://github.com/user-attachments/assets/68815e7d-9769-4452-b0c2-af6dfd757221)
+![Flow Diagram](https://github.com/vov62/PokeApi-Project-Python-AWS-DynamoaDB-Terraform/blob/main/assets/mermaid-diagram-2024-11-05-170009.png?raw=true)
 
 
 
