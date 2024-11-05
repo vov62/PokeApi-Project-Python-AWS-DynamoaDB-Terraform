@@ -37,6 +37,7 @@ def check_if_pokemon_in_database(random_pokemon_name):
 
 
 
+
 def save_pokemon_to_dynamoDB(pokemon_details):
 
     if table is None:
@@ -57,7 +58,9 @@ def save_pokemon_to_dynamoDB(pokemon_details):
             }
         )
         if response['ResponseMetadata']['HTTPStatusCode'] == 200:
-              print(f'Success: Pokemon "{pokemon_details["name"]}" details saved to DynamoDB database!')
+            print(f'Success: Pokemon "{pokemon_details["name"]}" details saved to DynamoDB database!')
+            print(f"Pokemon: {pokemon_details['name']}\nID: {pokemon_details['id']}\nHeight: {pokemon_details['height']}\nWeight: {pokemon_details['weight']}")
+
     except Exception as e:
         print(f"failed to create item: {str(e)}")
 
