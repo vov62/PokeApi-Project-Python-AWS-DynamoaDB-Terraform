@@ -31,4 +31,4 @@ The primary challenge in this project was setting up the infrastructure using Te
 <img width="700" alt="‏‏app-flow" src="https://github.com/vov62/PokeApi-Project-Python-AWS-DynamoaDB-Terraform/blob/main/assets/mermaid-diagram-2024-11-05-173038.png?raw=true">
 
 <h2>app on aws</h2>
-<img width="540" alt="‏‏פוקימון aws - עותק" src="https://github.com/user-attachments/assets/587e3e19-3249-4b9e-8eb5-a1e8f8a3702a">
+<img width="540" alt="aws 2 pokemon" src="https://github.com/user-attachments/assets/9441a126-1718-4005-9ebb-ec0a792dd54a">
