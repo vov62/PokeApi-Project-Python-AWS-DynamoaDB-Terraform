@@ -28,11 +28,8 @@ The primary challenge in this project was setting up the infrastructure using Te
 :white_medium_small_square: Terraform: Gained proficiency in Terraform for defining, deploying, and managing cloud infrastructure through code.
 
 <h2>Flow</h2>
-<img src="https://github.com/user-attachments/assets/ecd5ca10-f6e4-42a9-bcfb-b4a18f49155b" alt="mermaid info" width="500" height="auto">
-
-
+<img src="https://github.com/user-attachments/assets/ecd5ca10-f6e4-42a9-bcfb-b4a18f49155b" alt="mermaid info" width="400" height="auto">
 
 <h2>app on aws</h2>
 <img width="800" alt="aws 2 pokemon" src="https://github.com/user-attachments/assets/9441a126-1718-4005-9ebb-ec0a792dd54a">
 
-![mermaid info](https://github.com/user-attachments/assets/ecd5ca10-f6e4-42a9-bcfb-b4a18f49155b)
